@@ -27,3 +27,15 @@ var modal = document.getElementById('myModal');
 function pops() {
 	modal.style.display = "block";
 };
+
+/* hide url bar*/
+window.onload = function(){
+    setTimeout(function(){
+        window.scrollTo(0, 1);
+    }, 100);
+}
+
+/*prevent slide webpage*/
+document.addEventListener("touchmove", function(event){
+    event.preventDefault();
+}, false);
