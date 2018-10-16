@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ui test</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="b94901099">
+
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom styles for this template -->
+    <link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+<body>
+    <div class="container-fluid text-center" id="timeBlock">
+        <p id="firstLine" >Ticket</p>
+        <p id="secondLine" class="mb-0">VALID UNTIL</p>
+        <p id="thirdLine">Oct 10, 2018 11:30 PM</p>
+    </div><!-- End #timeBlock -->
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content text-center">
+        <i class="fa fa-spinner fa-spin" style="font-size:168px; color:lightgrey;"></i>
+      </div>
+    </div>
+
+    <div class="container-fluid pl-0 pr-0" id="videoBlock">
+        <video width="414" autoplay loop>
+            <source src="assets/video.mov">
+        </video>
+    </div><!-- End #videoBlock -->
+    
+    <div class="container-fluid" id="bottomBlock">
+        <img src="assets/qrcode.png" alt="nothing" class="float-right mt-2" width="70" onclick="pops()">
+        <h1 id="zone" class="display-1 pt-5">4 - 1</h1>
+        <p id="oneway" class="mb-0">ONE WAY</p>
+        <p>A</p>
+    </div><!-- End #bottomBlock -->
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    
+</body>
+</html>
+
+
+
